@@ -3,8 +3,6 @@ backgrounds=(~/Desktop/striped/*)
 randomBackground=$backgrounds[(RANDOM % $#backgrounds + 1)]
 
 IFS=$'\n' fonts=($(< ~/.sh/.fonts.log))
-#for f in $fonts; do echo $f; done
-#exit
 
 randomFont=$fonts[(RANDOM % $#fonts + 1)]
 
