@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<!-- <meta name="viewport" content="width=device-width" /> -->
+	<title>Hans van der Woude - PHP Developer</title>
+	<!-- <meta name="description" content="$DESCRIPTION"/> -->
+	<!-- <meta name="author" content="$AUTHOR"/> -->
+	<!-- <meta name="keywords" content="$KEYWORDS"/> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300,400,500,600,700,800,900" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,400,600,700,800,900" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+	<div class="page">
+
+		<div class="layer">
+			<div  id="title">
+				<h1 class="heading">
+					{yourName}
+				</h1>
+			</div>
+
+			<div id="sub-title">
+				<h2 class="heading">
+					{yourFunction}
+				</h2>
+			</div>
+
+			<div id="details">
+				<div id="email">
+					<a href="mailto:{yourMail}">
+						{mailUserPart}<div class="transform">@</div>{mailDomainName}.{mailTld}
+					</a>
+				</div>
+				<!-- <br> -->
+				<div id="phone">{telephone}</div>
+				<!-- <br> -->
+			</div>
+
+			<!-- <div id="bio" class="printmargin">
+			<p>(skit) {excerpt}</p>
+		</div> -->
+
+
+		<table class="software">
+			<caption>Software</caption>
+
+			<tr>
+				<th>{skillCategory}</th>
+				<th>{skillCategory}</th>
+				<th>{skillCategory}</th>
+				<th>{skillCategory}</th>
+			</tr>
+
+			<tr>
+				<td>{skillSubject}</td>
+				<td>{skillSubject}</td>
+				<td>{skillSubject}</td>
+				<td>{skillSubject}</td>
+			</tr>
+
+			<tr>
+				<td>{skillSubject}</td>
+				<td>{skillSubject}</td>
+				<td>{skillSubject}</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>{skillSubject}</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+		</table>
+
+		<table id="jobs">
+			<caption>{companies}</caption>
+
+			<tr>
+				<td>{companyStart} &ndash; {companyEnd} &#8195;</td>
+				<td>{companyName}</td>
+			</tr>
+
+			<tr>
+				<td>{companyStart} &ndash; {companyEnd}</td>
+				<td>{companyName}</td>
+			</tr>
+
+			<tr>
+				<td>{companyStart} &ndash; {companyEnd}</td>
+				<td>{companyName}</td>
+			</tr>
+
+		</table>
+
+		<table id="education">
+			<caption>{studies}</caption>
+
+			<tr>
+				<td>{educationStart} &ndash; {educationEnd} &#8195;</td>
+				<td>{educationName}</td>
+			</tr>
+
+			<tr>
+				<td>{educationStart} &ndash; {educationEnd}</td>
+				<td>{educationName}</td>
+			</tr>
+
+			<tr>
+				<td>{educationStart} &ndash; {educationEnd}</td>
+				<td>{educationName}</td>
+			</tr>
+
+		</table>
+
+		<table id="more">
+			<caption>{more}</caption>
+
+			<tr>
+				<td>{Gandalf}</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>{Exploder}</td>
+			</tr>
+
+			<tr>
+				<td></td>
+			</tr>
+
+		</table>
+
+		<!-- <div id="footer">{Amsterdam} {2030}</div> -->
+
+		<!-- </div> -->
+
+
+	</div>
+	<div class="layer" id="border"></div>
+</div>
+
+<div class="page-break"></div>
+
+</body>
+</html>
